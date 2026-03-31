@@ -15,11 +15,13 @@ The main goal was to reinforce frontend fundamentals such as:
 * Styling and layout organization
 
 ## Technologies Used
+
 * React
 * TypeScript
 * CSS
 
 ## Features
+
 * Custom Header component
 * Reusable Button component
 * Refactored Card component used as a login container
@@ -39,6 +41,7 @@ During the development and refactoring process, the following points were addres
 * Writing and validating basic component behavior
 
 ## Possible Improvements
+
 * Form validation (email/password)
 * Integration with authentication API
 * State management for login flow
