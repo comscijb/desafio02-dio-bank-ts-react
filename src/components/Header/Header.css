@@ -1,3 +1,11 @@
 .header {
-    background-color: orange;
+    background-color: #9413dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: grey 1px 1px 2px;
 }

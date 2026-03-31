@@ -1,16 +1,50 @@
-# Desenvolvendo o Dio Bank
+# Dio Bank – Login Interface
 
-#### Projeto desenvolvido com React
+This project is a simple banking login interface built with React and TypeScript, developed as part of a practical exercise and later refactored to improve structure, componentization, and styling.
 
-### Tecnologias
-- Typescript
+Refactored by Jean Guilherme Borges
 
-#### Desafios
-[ ] Crie os componentes referentes aos elementos na página inicial
-  - Crie um componente para o header, com o título da aplicação
-  - Crie um componente para o botão, que aceite onClick como uma das props do componente
-  - Refatore o componente Card para receber o formulário de login. Ao invés de chamar elemento por elemento na página inicial, apenas o componente Card deve ser chamado.
+## Overview
 
-[ ] Crie uma função de Boas vindas
-  - Ao clicar no botão, deve aparecer um alert com uma mensagem de boas vindas
-  - Crie o teste unitário da função
+The application simulates a login screen for a banking system, focusing on UI structure, reusable components, and basic interaction handling.
+
+The main goal was to reinforce frontend fundamentals such as:
+
+## Component-based architecture
+State and event handling
+Styling and layout organization
+
+## Technologies Used
+React
+TypeScript
+CSS
+
+## Features
+Custom Header component
+Reusable Button component
+Refactored Card component used as a login container
+Basic login form structure
+Button click handling with alert feedback
+Component-level styling
+
+## Challenges and Learnings
+
+During the development and refactoring process, the following points were addressed:
+
+Creating and styling a reusable Header component
+Building a customizable Button component with event handling
+Refactoring the Card component to encapsulate the login form
+Structuring components for better reusability and readability
+Implementing user interaction via button click events
+Writing and validating basic component behavior
+Possible Improvements
+Form validation (email/password)
+Integration with authentication API
+State management for login flow
+Error handling and user feedback
+Responsive design improvements
+Unit tests with better coverage
+
+## Purpose
+
+This project is intended for learning and portfolio purposes, demonstrating the fundamentals of building React interfaces with TypeScript and improving code organization through refactoring.
